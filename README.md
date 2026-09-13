@@ -1,16 +1,81 @@
-# React + Vite
+# Job Finder
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React-based job finder application that allows users to search, filter, save, and apply for jobs through a simple and responsive interface.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Search jobs by title or company
+- Filter jobs by job type
+- View detailed job information
+- Save jobs for later
+- Apply for jobs
+- Application form with name, email, and resume upload
+- Responsive design for different screen sizes
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React
+- JavaScript
+- React Router
+- CSS
+- Vite
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/Anushree8770/job-finder.git
+```
+
+### 2. Navigate to the project
+
+```bash
+cd job-finder
+```
+
+### 3. Install dependencies
+
+```bash
+npm install
+```
+
+### 4. Start the development server
+
+```bash
+npm run dev
+```
+
+Open the local URL shown in the terminal to view the application.
+
+## Project Structure
+
+```text
+job-finder/
+├── public/
+├── src/
+│   ├── assets/
+│   ├── components/
+│   │   └── JobCard.jsx
+│   ├── pages/
+│   │   └── JobDetails.jsx
+│   ├── App.jsx
+│   ├── App.css
+│   ├── index.css
+│   └── main.jsx
+├── package.json
+└── README.md
+```
+
+## Future Improvements
+
+- Connect the application to a real jobs API
+- Add user authentication
+- Store saved jobs persistently
+- Add pagination
+- Add advanced job filters
+- Deploy the application
+
+## Author
+
+Anushree Patel
