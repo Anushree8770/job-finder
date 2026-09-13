@@ -1,5 +1,7 @@
 # Job Finder
 
+🔗 [Live Demo](https://job-finder-six-olive.vercel.app)
+
 A React-based job finder application that allows users to search, filter, save, and apply for jobs through a simple and responsive interface.
 
 ## Features
